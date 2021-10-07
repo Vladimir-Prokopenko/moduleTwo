@@ -22,17 +22,11 @@
 //   alert("Canceled")
 // } else if (nameLogin.length < 4) {
 //   alert("I don't know any users having name length less than 4 symbols")
-// }
-// else if (nameLogin !== "User" || nameLogin !== "Admin") {
-//   alert("I don’t know you")
-// }
-// else if (nameLogin === "User" || nameLogin === "Admin") {
+// } else if (nameLogin === "User" || nameLogin === "Admin") {
 //   const password = prompt("Введите пароль")
 //   if (password === null || password === "") {
 //     alert("Canceled")
-//   }
-//   else {
-//       if (nameLogin === "User" && password === "UserPass") {
+//   } else if (nameLogin === "User" && password === "UserPass") {
        
 //         const localTime = new Date().getHours()
 //         if (localTime > 5 || localTime < 20) {
@@ -41,7 +35,7 @@
 //           alert("Good evening, dear User!")
 //         }
 //       } else if (nameLogin === "Admin" && password === "RootPass") {
-//           alert("Wrong password")
+     
 //           const localTime = new Date().getHours()
 //           if (localTime > 5 || localTime < 20) {
 //             alert("Good day, dear Admin!")
@@ -51,6 +45,8 @@
         
 //       }  else { alert("Wrong password") }
 //     }
+//  else if (nameLogin !== "User" || nameLogin !== "Admin") {
+//   alert("I don’t know you")
 // }
 
 
