@@ -197,7 +197,7 @@
 // function findLongestWord(string) {
 //   const newArray = string.split(" ");
 //   let result = 0;
-//   let maxWord;
+//   let maxWord = "";
 //   for (let i = 0; i < newArray.length; i += 1) {
 //     console.log(newArray[i].length);
 //     if (result < newArray[i].length) {
